@@ -1,0 +1,32 @@
+[
+  {
+    "name": "JSON",
+    "emailAddress": "json@gmail.com",
+    "mobileNumber": 1234567890,
+    "isEmployee": true,
+    "isManager": false,
+    "salary": 90000,
+    "department": "IT",
+    "address": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": 123456
+    },
+    "comments": "Example of a JSON using array of objects.1"
+  },
+  {
+    "name": "Javascript",
+    "emailAddress": "javascript@gmail.com",
+    "mobileNumber": 9876543210,
+    "isEmployee": false,
+    "isManager": true,
+    "salary": 9000000,
+    "department": "Banking",
+    "address": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": 123456
+    },
+    "comments": "Example of a JSON using array of objects."
+  }
+]

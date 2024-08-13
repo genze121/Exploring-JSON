@@ -1,0 +1,15 @@
+{
+  "name": "JSON",
+  "emailAddress": "json@gmail.com",
+  "mobileNumber": 1234567890,
+  "isEmployee": true,
+  "isManager": false,
+  "salary": 90000,
+  "department": "IT",
+  "address": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": 123456
+  },
+  "comments": "Example of a JSON using object."
+}
