@@ -10,13 +10,13 @@
   <br/>
   <li>JSON is light-weight and easy to understand and easy to use.</li>
    <br/>
-  <li>JSON is basically used to transmit data from client to server or server to client.</li>
+  <li>JSON transmits data from client to server or server to client.</li>
   <br/>
    <li>File extension of JSON is ".json".</li>
     <br/>
    <li>The MIME type for JSON text is "application/json".</li>
    <br/>
-   <li>JSON is language independent. Mostly all the languages supports JSON.</li>
+   <li>JSON is language-independent. Mostly all the languages support JSON.</li>
 </ul>
 
 <h1 style="text-decoration:underline;text-underline-offset:8px">JSON Syntax</h1>
@@ -24,17 +24,18 @@
 <ul>
 <li>Data is represented in name/value or key/value pairs.</li>
 <br/>
-<li>Data is separated by comma.</li>
+<li>Data is separated by a comma.</li>
 <br/>
 <li>A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:</li>
-
+<br/>
+  
 ```json
 
-"name":"JavaScript"
+"name": "JavaScript"
 
 ```
 <br/>
-<li>JSON can be represented using two ways. They are as follows:-</li>
+<li>JSON can be represented in two ways. They are as follows:-</li>
 </ul>
 
 1) Using curly brackets.
@@ -42,9 +43,9 @@
 ```json
 
 {
-  "name":"John",
-  "age":30,
-  "city":"New York"
+  "name": "John",
+  "age": 30,
+  "city": "New York"
 }
 
 ```
@@ -55,23 +56,23 @@
 
 [
   {
-    "name":"John",
-    "age":30,
-    "city":"New York"
+    "name": "John",
+    "age": 30,
+    "city": "New York"
   },
   {
-    "name":"Mohan",
-    "age":25,
-    "city":"Delhi"
+    "name": "Mohan",
+    "age": 25,
+    "city": "Delhi"
   }
 ]
 
 ```
 
-<h1 style="text-decoration:underline;
+<h1 style="text-decoration: underline;
 text-underline-offset:8px">JSON Datatypes</h1>
 
-<p>JSON supports following datatypes. They are as follows:-<p>
+<p>JSON supports the following data types. They are as follows:-<p>
 <ul>
  <li>String</li>
  <li>Boolean</li>
@@ -88,7 +89,7 @@ text-underline-offset:8px">JSON Datatypes</h1>
 
   1) function
   2) date
-  3) udefined
+  3) undefined
 </div>
 
 <h1 style="text-decoration:underline;text-underline-offset:10px">Examples of JSON Datatypes</h1>
@@ -108,7 +109,7 @@ text-underline-offset:8px">JSON Datatypes</h1>
 ```json
 
 {
-  "isEmployee":true
+  "isEmployee": true
 }
 
 ```
@@ -120,7 +121,7 @@ text-underline-offset:8px">JSON Datatypes</h1>
 {
   "employee":{
     "name": "JSON",
-    "isEmployee":true,
+    "isEmployee": true,
   }
 }
 
@@ -131,7 +132,7 @@ text-underline-offset:8px">JSON Datatypes</h1>
 ```json
 
 {
-  "fruits":["mango","apple","pineapple","banana"]
+  "fruits":["mango", "apple", "pineapple", "banana"]
 }
 
 ```
@@ -177,7 +178,7 @@ text-underline-offset:8px">JSON Datatypes</h1>
   </tr>
    <tr>
     <td>JSON supports array.</td>
-    <td>XML doesn't supports array. </td>
+    <td>XML doesn't support array. </td>
   </tr>
    <tr>
     <td>JSON doesn't provide display capabilities.</td>
@@ -185,33 +186,33 @@ text-underline-offset:8px">JSON Datatypes</h1>
   </tr>
   <tr>
     <td>JSON is less secured than XML.</td>
-    <td>XML is more secured than JSON. </td>
+    <td>XML is more secure than JSON. </td>
   </tr>
   <tr>
-    <td>JSON files are more human readable.</td>
-    <td>XML files are less human readable. </td>
+    <td>JSON files are more human-readable.</td>
+    <td>XML files are less human-readable. </td>
   </tr>
   <tr>
     <td>JSON supports only text and data.</td>
-    <td>XML supports many datatypes such as text, number, charts, graphs etc. Moreover XML offers for transferring the format or structure of the data with the actual data. </td>
+    <td>XML supports many datatypes such as text, numbers, charts, graphs, etc. Moreover, XML offers for transferring the format or structure of the data with the actual data. </td>
   </tr>
 </table>
 
 <div style="background-color:#ffdddd;border:1px solid gray;border-radius:10px;padding:10px;box-shadow:3px 3px aqua;color:#000">
- <b style="text-decoration:underline">Note:-</b> JSON doesn't support comments. It is not a standard. But there is one way to represent comments in JSON by using an attribute "comments".
+ <b style="text-decoration:underline">Note:-</b> JSON doesn't support comments. It is not a standard. But there is one way to represent comments in JSON by using the attribute "comments".
  Here is an example for your reference:-
 
   ```json
 
 {
-  "name":"John",
+  "name": "John",
   "age":30,
   "comments": "This is a comment in JSON"
 }
 
   ```
 
-Note:- Here, <b>"comments"</b> attribute is treated as comment.
+Note:- Here, the <b>"comments"</b> attribute is treated as a comment.
 </div>
 
 <h1 style="text-decoration:underline;text-underline-offset:8px"> Accessing JSON Object</h1>
@@ -225,12 +226,12 @@ Note:- Here, <b>"comments"</b> attribute is treated as comment.
 ```javascript
 
 const jsonObject = {
- "name":"JSON",
+ "name": "JSON",
  "age":30,
  "mobileNumber":1234567890,
- "isManager":false,
- "isEmployee":true,
- "salary":60000
+ "isManager": false,
+ "isEmployee": true,
+ "salary": 60000
 }
 
 console.log(jsonObject.name);
@@ -247,12 +248,12 @@ console.log(jsonObject.salary);
 ```javascript
 
 const jsonObject = {
- "name":"JSON",
+ "name": "JSON",
  "age":30,
  "mobileNumber":1234567890,
- "isManager":false,
- "isEmployee":true,
- "salary":60000
+ "isManager": false,
+ "isEmployee": true,
+ "salary": 60000
 }
 
 console.log(jsonObject["name"]);
@@ -293,7 +294,7 @@ Exceptions:- Date and functions are not allowed in JSON. If we need to include a
 <ul>
  <li>A common use of JSON is to exchange data to/from a web server.</li>
 <br/>
- <li>When sending data to a web server, the data has to be string.</li>
+ <li>When sending data to a web server, the data has to be a string.</li>
 <br/>
  <li>Convert a JavaScript object into a string with JSON.stringify()</li>
 </ul>
@@ -309,3 +310,10 @@ const stringedData = JSON.stringify(jsonString);
 console.log(stringedData);
 
 ```
+
+----
+
+![giphy](https://github.com/user-attachments/assets/be511008-b062-409b-9a5a-440344fd4f9f)
+
+----
+
