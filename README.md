@@ -1,3 +1,7 @@
+
+![JSON-Tutorial](https://github.com/user-attachments/assets/6f3d9af4-1624-4284-8af2-1d30dca648f3)
+
+
 <h1 style="text-decoration:underline">JSON - Introduction</h1>
 
 <ul>
@@ -310,6 +314,10 @@ const stringedData = JSON.stringify(jsonString);
 console.log(stringedData);
 
 ```
+
+----
+
+Credits: [Tirtha Sharma](https://github.com/genze121)
 
 ----
 
