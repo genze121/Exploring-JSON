@@ -317,7 +317,7 @@ console.log(stringedData);
 
 ----
 
-Credits: [Tirtha Sharma](https://github.com/genze121)
+Credits: [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
 
 ----
 
