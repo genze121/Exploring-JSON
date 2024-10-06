@@ -321,6 +321,8 @@ console.log(stringedData);
 
 Credits: [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
 
+Twitter: [Twitter Link](https://x.com/tirthagenze121 "Tirtha Sharma")
+
 ----
 
 ![giphy](https://github.com/user-attachments/assets/be511008-b062-409b-9a5a-440344fd4f9f)
