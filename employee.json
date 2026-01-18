@@ -6,10 +6,11 @@
   "isManager": false,
   "salary": 90000,
   "department": "IT",
+  "isAdmin" : false,
   "address": {
     "city": "Bangalore",
     "state": "Karnataka",
     "pincode": 123456
   },
-  "comments": "Example of a JSON using object."
+  "comments": "Example of a JSON data using object."
 }
